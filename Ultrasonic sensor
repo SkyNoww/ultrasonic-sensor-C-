@@ -1,0 +1,39 @@
+#include <LiquidCrystal.h>
+
+LiquidCrystal lcd(12,11,5,4,3,2); // Branchement ecran lcd
+
+char TRIGGER = 7; //Broche 7
+char ECHO =6; //Broche 6
+
+float distance;
+
+void setup()
+{
+	lcd.begin(16,2); //Dimension ecran lcd
+
+	pinMode(TRIGGER, OUTPUT); //Definit trigger sortie
+     pinMode(ECHO,INPUT); //Definit echo entree
+}
+
+void loop()
+{
+
+ //Protocole pour le TRIGGER
+	 digitalWrite(TRIGGER, LOW);
+	     delayMicroseconds(2);
+	         digitalWrite(TRIGGER, HIGH);
+	             delayMicroseconds(10);
+	                 digitalWrite(TRIGGER, LOW);
+
+//Mesure la duree de l'impulsion sur ECHO et la converti en distance (cm)
+     distance = pulseIn(ECHO, HIGH) / 58.0;
+
+//Afiche le resultat sur l'ecran LCD
+     lcd.clear();
+         lcd.setCursor(0,0);
+             lcd.print("distance");
+                 lcd.setCursor(0,1);
+                     lcd.print(distance);
+                         lcd.print("cm");
+                             delay(200);
+}
