@@ -1,4 +1,4 @@
-# ultrasonic-sensor-C-
+# ultrasonic-sensor-LCD-C-
 ultrasonics sensor arduino C++
 
 This program is in C++ and is compatible with the module 
