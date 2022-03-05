@@ -14,10 +14,10 @@ The purpose of this project and to be able to detect objects thanks to an ultras
 
 make the assembly: 
 
-![image](https://user-images.githubusercontent.com/93336837/156865150-4fbe4c04-2f6d-4759-9b96-7e4c498f0da2.png)
+![ultra](https://user-images.githubusercontent.com/93336837/156865335-c0bafc35-1ecb-4333-8be4-66de59c112e0.jpg)
 
 Then upload the program to the arduino and finally place objects in front of the sensor and the result will be displayed on the lcd screen
 
 RESULT !! :
 
-![ultra](https://user-images.githubusercontent.com/93336837/156865335-c0bafc35-1ecb-4333-8be4-66de59c112e0.jpg)
+![SONAR](https://user-images.githubusercontent.com/93336837/156865369-84ee797a-c3db-4fe9-adff-99b95c464786.jpg)
