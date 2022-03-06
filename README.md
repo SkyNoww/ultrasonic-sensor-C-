@@ -1,7 +1,18 @@
 # ultrasonic-sensor-LCD-C-
 ultrasonics sensor arduino C++
 
+Who ?
+-------------------------
+
 This program comes from U=RI (in youtube)
+
+The goal of 
+-------------------------
+
+The purpose of this project and to be able to detect objects thanks to an ultrasonic detector.
+
+Whit what ?
+--------------------------
 
 This program is in C++ and is compatible with the module 
 ARDUINO capteur ultrason HC SR04 
@@ -9,8 +20,8 @@ ARDUINO capteur ultrason HC SR04
 Site : amazon.fr/Accessoires-pour-Arduino-100-compatibles/dp/B074NY5M79/ref=sr_1_3?__mk_fr_FR=ÅMÅŽÕÑ&crid=11MSPZC3Q1BLV&keywords=arduino+capteur+ultrason+hcsr04&qid=1646443733&sprefix=ihm+arduino+capteur+ultrason+hc+sr04+%2Caps%2C700&sr=8-3
 
 
-The purpose of this project and to be able to detect objects thanks to an ultrasonic detector.
-
+how to do ?
+------------------------
 
 make the assembly: 
 
@@ -19,5 +30,6 @@ make the assembly:
 Then upload the program to the arduino and finally place objects in front of the sensor and the result will be displayed on the lcd screen
 
 RESULT !! :
+------------------------
 
 ![SONAR](https://user-images.githubusercontent.com/93336837/156865369-84ee797a-c3db-4fe9-adff-99b95c464786.jpg)
